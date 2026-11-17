@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BRANDORA | Make Your Brand Matter</title>
+<meta name="description" content="BRANDORA helps businesses grow through creative video editing, branding and digital marketing.">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:#080808;color:#f5f5f5;line-height:1.6}
+a{color:inherit;text-decoration:none}
+header{position:sticky;top:0;background:#080808ed;border-bottom:1px solid #292929;padding:18px 7%;display:flex;justify-content:space-between;align-items:center;z-index:10}
+.logo{font-size:25px;font-weight:900;letter-spacing:3px}
+nav{display:flex;gap:24px;font-size:13px;color:#ccc}
+nav a:hover{color:white}
+section{padding:85px 8%}
+.hero{min-height:580px;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;background:radial-gradient(ellipse at 80% 40%,#292929 0%,#080808 55%)}
+.tag{font-size:12px;letter-spacing:4px;color:#aaa;text-transform:uppercase}
+h1{font-size:clamp(48px,9vw,94px);line-height:1.02;letter-spacing:-4px;margin:22px 0}
+h1 span{color:#999}
+.hero p{max-width:570px;color:#aaa;font-size:17px;margin-bottom:30px}
+.btn{display:inline-block;background:#f5f5f5;color:#080808;padding:14px 25px;font-weight:bold;font-size:13px;letter-spacing:1px;border:1px solid white}
+.btn:hover{background:transparent;color:white}
+.section-title{font-size:38px;letter-spacing:-1px;margin:12px 0 35px}
+.muted{color:#999}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.card{border:1px solid #303030;padding:28px;background:#101010}
+.card h3{font-size:19px;margin:12px 0}
+.card p{font-size:14px;color:#999}
+.number{font-size:12px;color:#888;letter-spacing:2px}
+.about{background:#f2f2f2;color:#111}
+.about .muted{color:#555}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.about-box{background:#111;color:white;padding:35px;font-size:25px;font-weight:bold}
+.price{font-size:30px;font-weight:bold;margin:15px 0}
+.price small{font-size:13px;color:#999;font-weight:normal}
+.card ul{padding-left:18px;color:#aaa;font-size:14px;margin:15px 0}
+.card li{margin:7px 0}
+.contact{background:#f2f2f2;color:#111}
+.contact .muted{color:#555}
+form{max-width:600px;display:grid;gap:13px;margin-top:25px}
+input,textarea,select{width:100%;padding:14px;border:1px solid #ccc;background:white;color:#111;font:inherit}
+textarea{min-height:120px;resize:vertical}
+form button{cursor:pointer;border:0}
+footer{padding:30px 8%;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;color:#888;font-size:12px;border-top:1px solid #292929}
+@media(max-width:650px){
+ header{padding:16px 5%;flex-direction:column;gap:12px}
+ nav{gap:14px;font-size:11px;flex-wrap:wrap;justify-content:center}
+ section{padding:65px 6%}
+ .about-grid{grid-template-columns:1fr}
+ h1{letter-spacing:-2px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <a class="logo" href="#">BRANDORA.</a>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="tag">Creative solutions for ambitious businesses</div>
+  <h1>MAKE YOUR<br><span>BRAND MATTER.</span></h1>
+  <p>We help businesses build a stronger digital presence through creative content, smart branding and digital solutions.</p>
+  <a class="btn" href="#contact">LET'S WORK TOGETHER ↗</a>
+</section>
+
+<section id="services">
+  <div class="tag">What we do</div>
+  <h2 class="section-title">Our Services.</h2>
+  <div class="cards">
+    <div class="card"><div class="number">01 / CONTENT</div><h3>Video Editing</h3><p>Engaging short-form videos, reels and promotional content that communicate your brand's message.</p></div>
+    <div class="card"><div class="number">02 / IDENTITY</div><h3>Branding & Design</h3><p>Creative promotional designs and consistent visual presentation for your business.</p></div>
+    <div class="card"><div class="number">03 / DIGITAL</div><h3>Digital Presence</h3><p>Business profiles, digital catalogues and online presentation to help customers discover you.</p></div>
+    <div class="card"><div class="number">04 / GROWTH</div><h3>Social Media</h3><p>Content planning and social media support to help your business communicate consistently.</p></div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="about-grid">
+    <div>
+      <div class="tag">Who we are</div>
+      <h2 class="section-title">Ideas deserve<br>to be noticed.</h2>
+      <p class="muted">BRANDORA is a creative digital brand focused on helping businesses present themselves professionally. We combine creativity, thoughtful design and practical digital tools to make brands stand out.</p>
+    </div>
+    <div class="about-box">GOOD BRANDS<br>DON'T JUST EXIST.<br>THEY MAKE AN<br>IMPRESSION.</div>
+  </div>
+</section>
+
+<section id="pricing">
+  <div class="tag">Simple starting packages</div>
+  <h2 class="section-title">Choose your plan.</h2>
+  <div class="cards">
+    <div class="card">
+      <div class="number">STARTER</div><h3>Get Started</h3>
+      <div class="price">₹499 <small>/ month</small></div>
+      <ul><li>2 promotional videos</li><li>Basic business profile</li><li>WhatsApp enquiry link</li></ul>
+      <a class="btn" href="#contact">ENQUIRE NOW</a>
+    </div>
+    <div class="card">
+      <div class="number">POPULAR CHOICE</div><h3>Growth</h3>
+      <div class="price">₹999 <small>/ month</small></div>
+      <ul><li>4 promotional videos</li><li>Digital catalogue</li><li>Basic profile setup</li><li>Promotional designs</li></ul>
+      <a class="btn" href="#contact">ENQUIRE NOW</a>
+    </div>
+    <div class="card">
+      <div class="number">PREMIUM</div><h3>Stand Out</h3>
+      <div class="price">₹1,999 <small>/ month</small></div>
+      <ul><li>8 promotional videos</li><li>Digital catalogue</li><li>Promotional posters</li><li>Content planning</li><li>Basic performance report</li></ul>
+      <a class="btn" href="#contact">ENQUIRE NOW</a>
+    </div>
+  </div>
+  <p class="muted" style="font-size:12px;margin-top:18px">Packages are starting offers. Final scope and pricing will be confirmed before work begins.</p>
+</section>
+
+<section class="contact" id="contact">
+  <div class="tag">Have a project in mind?</div>
+  <h2 class="section-title">Let's talk.</h2>
+  <p class="muted">Tell us a little about your business. We'll get back to you through WhatsApp.</p>
+  <form id="enquiry">
+    <input id="name" placeholder="Your name" required>
+    <input id="business" placeholder="Business name">
+    <input id="phone" placeholder="Your contact number" required>
+    <select id="service" required>
+      <option value="">Choose a service</option>
+      <option>Video Editing</option>
+      <option>Branding & Design</option>
+      <option>Digital Presence</option>
+      <option>Social Media</option>
+      <option>Other</option>
+    </select>
+    <textarea id="message" placeholder="Tell us about your project"></textarea>
+    <button class="btn" type="submit">SEND ENQUIRY VIA WHATSAPP ↗</button>
+  </form>
+</section>
+
+<footer>
+  <div><strong>BRANDORA.</strong><br>Make Your Brand Matter.</div>
+  <div>© 2026 BRANDORA. All rights reserved.</div>
+</footer>
+
+<script>
+const BRANDORA_WHATSAPP_NUMBER = "919369733971";
+
+document.getElementById("enquiry").addEventListener("submit", function(e) {
+  e.preventDefault();
+  const name = document.getElementById("name").value.trim();
+  const business = document.getElementById("business").value.trim();
+  const phone = document.getElementById("phone").value.trim();
+  const service = document.getElementById("service").value;
+  const message = document.getElementById("message").value.trim();
+
+  const text = `Hello BRANDORA! I would like to enquire about your services.
+
+Name: ${name}
+Business: ${business || "Not provided"}
+Contact: ${phone}
+Service: ${service}
+Project details: ${message || "Not provided"}`;
+
+  window.open("https://wa.me/" + BRANDORA_WHATSAPP_NUMBER + "?text=" + encodeURIComponent(text), "_blank");
+});
+</script>
+</body>
+</html>
